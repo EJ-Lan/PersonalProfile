@@ -1,14 +1,14 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/Smith-Cv.pdf";
+import CV from "../../assets/ErvinJonLanada_Resume.pdf";
 import Info from "./Info";
 
 const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">My Introduction</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,9 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+          Hello, my name is EJ! I'm currently a Computer Science student at the University of Alberta, where I'm pursuing my passion for software engineering.  I'm truly dedicated to the world of software engineering, and my interests span across Full Stack, Backend, Frontend, and Machine Learning. Outside of coding, you'll often find me enjoying a good workout, playing basketball, or diving deep into programming challenges.
           </p>
 
           <a download="" href={CV} className="button button--flex">
