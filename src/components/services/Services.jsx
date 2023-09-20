@@ -10,15 +10,15 @@ const Services = () => {
 
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+      <h2 className="section__title">Hobbies</h2>
+      <span className="section__subtitle">More About Me</span>
 
       <div className="services__container container grid">
         <div className="services__content">
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Coding <br /> Projects
             </h3>
           </div>
 
@@ -40,43 +40,42 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Product Designer</h3>
+              <h3 className="services__modal-title">Coding Projects</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                I love to create new coding projects, especially when I am using brand new technologies.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Front End Development.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Backend Development.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
+                    Fullstack Development.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Working with Databases.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Post on Github.
                   </p>
                 </li>
               </ul>
@@ -88,7 +87,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Designer
+              Working <br /> Out
             </h3>
           </div>
 
@@ -110,43 +109,42 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
+              <h3 className="services__modal-title">Working Out</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                Working out is great for my mental health and physical health
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    I make my own programs.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Make sure to stretch.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
+                    Foam rolling is the best.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Never skip leg day.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Hitting PR's is so satisfying.
                   </p>
                 </li>
               </ul>
@@ -158,7 +156,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Basketball
             </h3>
           </div>
 
@@ -182,41 +180,40 @@ const Services = () => {
 
               <h3 className="services__modal-title">Visual Designer</h3>
               <p className="services__modal-description">
-                Service with more than 3 years of experience.Providing quality
-                work to clients and companies.
+                I have been playing basketball all my life, and it is one of my favourite pass times.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
+                    Splashing threes.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">Breaking ankles.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I create ux element interactions.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
+                    Throwing dimes.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Design and mockups of products for companies.
+                    Playing defense.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Pushing myself to my limit.
                   </p>
                 </li>
               </ul>

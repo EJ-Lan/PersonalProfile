@@ -22,7 +22,7 @@ const Footer = () => {
 
         </ul>
 
-        <div className="footer__social">
+        {/* <div className="footer__social">
           <a
             href="https://www.facebook.com/"
             className="footer__social-link"
@@ -46,7 +46,7 @@ const Footer = () => {
           >
             <i className="bx bxl-twitter"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
