@@ -78,6 +78,13 @@ const Services = () => {
                     Post on Github.
                   </p>
                 </li>
+
+                <li>
+                <span className="services__button" onClick={() => toggleTab(0)}>
+                    Close
+                    <i className="uil uil-arrow-right services__button-icon"></i>
+                </span>
+                </li>
               </ul>
             </div>
           </div>
@@ -147,6 +154,13 @@ const Services = () => {
                     Hitting PR's is so satisfying.
                   </p>
                 </li>
+
+                <li>
+                <span className="services__button" onClick={() => toggleTab(0)}>
+                    Close
+                    <i className="uil uil-arrow-right services__button-icon"></i>
+                </span>
+                </li>
               </ul>
             </div>
           </div>
@@ -215,6 +229,13 @@ const Services = () => {
                   <p className="services__modal-info">
                     Pushing myself to my limit.
                   </p>
+                </li>
+
+                <li>
+                <span className="services__button" onClick={() => toggleTab(0)}>
+                    Close
+                    <i className="uil uil-arrow-right services__button-icon"></i>
+                </span>
                 </li>
               </ul>
             </div>
