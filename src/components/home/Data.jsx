@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Software Engineer</h3>
       <p className="home__description">
-      I'm a Software Engineer based in Alberta, and with a dedication to crafting innovative solutions.
+      I'm a Software Engineer based in Alberta, with a dedication to crafting innovative solutions.
       </p>
 
       <a href="#contact" className="button button--flex">
